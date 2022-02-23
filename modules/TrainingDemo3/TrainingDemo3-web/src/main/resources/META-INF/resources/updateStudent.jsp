@@ -1,10 +1,11 @@
+<%@page import="training.demo.search.container.service.StudentLocalService"%>
 <%@page import="training.demo.search.container.service.StudentLocalServiceUtil"%>
-
+<%@page import="training.demo.search.container.model.Student"%>
 <%@ include file="init.jsp" %>
 <%@page import="com.liferay.portal.kernel.util.ParamUtil" %>
 
 <%
-long studentId=ParamUtil.getLong(request, "studentId" );
+long studentId=ParamUtil.getLong(request, "studentId");
 StudentLocalServiceUtil studentDetails=StudentLocalServiceUtil.getStudent(studentId);
 String name=studentDetails.getName();
 String email=studentDetails.getEmail();
