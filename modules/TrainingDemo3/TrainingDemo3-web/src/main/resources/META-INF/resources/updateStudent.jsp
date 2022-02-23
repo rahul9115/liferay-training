@@ -6,7 +6,7 @@
 
 <%
 long studentId=ParamUtil.getLong(request, "studentId");
-StudentLocalServiceUtil studentDetails=StudentLocalServiceUtil.getStudent(studentId);
+Student  studentDetails=StudentLocalServiceUtil.getStudent(studentId);
 String name=studentDetails.getName();
 String email=studentDetails.getEmail();
 String mobileno=studentDetails.getMobileNo();
