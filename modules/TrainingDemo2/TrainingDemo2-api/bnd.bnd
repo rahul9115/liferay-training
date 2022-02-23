@@ -1,0 +1,10 @@
+Bundle-Name: TrainingDemo2-api
+Bundle-SymbolicName: training.demo.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	training.demo.exception,\
+	training.demo.model,\
+	training.demo.service,\
+	training.demo.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../TrainingDemo2-service/service.xml

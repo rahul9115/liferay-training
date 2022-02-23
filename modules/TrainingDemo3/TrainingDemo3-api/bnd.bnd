@@ -1,0 +1,10 @@
+Bundle-Name: TrainingDemo3-api
+Bundle-SymbolicName: training.demo.search.container.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	training.demo.search.container.exception,\
+	training.demo.search.container.model,\
+	training.demo.search.container.service,\
+	training.demo.search.container.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../TrainingDemo3-service/service.xml

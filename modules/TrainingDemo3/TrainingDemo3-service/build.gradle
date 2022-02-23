@@ -1,0 +1,12 @@
+dependencies {
+	compile project(":modules:TrainingDemo3:TrainingDemo3-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../TrainingDemo3-api/src/main/java"
+	databaseNameMaxLength=64
+}
+
+group = "training.demo.search.container"

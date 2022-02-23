@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="training.demo.model.Student">
+		<field name="StudentId" type="long" />
+		<field name="name" type="String" />
+		<field name="email" type="String" />
+		<field name="mobileNo" type="String" />
+	</model>
+</model-hints>

@@ -1,0 +1,4 @@
+Bundle-Name: TrainingDemo3-web
+Bundle-SymbolicName: training.demo.search.conatiner.web
+Bundle-Version: 1.0.0
+Export-Package: training.demo.search.conatiner.web.constants
